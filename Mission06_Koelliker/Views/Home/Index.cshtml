@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "The Joel Hilton Film Collection";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <img src="~/img/joelhiltonheadshot.jpg" />
+        <br />
+        <br />
+        <a asp-controller="Home" asp-action="AddMovie">Add a Movie to the Collection</a>
+        <p>Welcome to Joel Hilton's film collection! Explore his curated selection of movies.</p>
+    </div>
+</body>
+</html>
+

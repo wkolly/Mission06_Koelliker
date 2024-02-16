@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Get to Know Joel";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* Add any custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .joel-photo {
+            max-width: 300px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <p>Get to know Joel Hilton, film enthusiast and podcast host.</p>
+        <p>Check out his work:</p>
+        <ul>
+            <li><a href="https://www.qwcomedy.com/">Quick Wits Comedy</a> (where he performs regularly)</li>
+            <li><a href="https://baconsale.com/">Baconsale</a> (his weekly podcast about films & pop culture)</li>
+        </ul>
+        <a href="https://baconsale.com/">
+            <img src="~/img/baconsalekate.jpg" />
+
+        </a>
+    </div>
+</body>
+</html>
