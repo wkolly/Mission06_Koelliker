@@ -6,7 +6,6 @@ namespace Mission06_Koelliker.Models
     {
 
         [Key]
-        [Required]
         public int MovieId { get; set; }
 
         [Required(ErrorMessage = "Category is required")]
